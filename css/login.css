@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #008f4c, #006635);
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.inicio-sesion {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+/* Estilos para la imagen */
+.logo-udenar {
+    width: 120px;  /* Ajusta el tamaño */
+    display: block;
+    margin: 0 auto 10px; /* Centra y añade espacio inferior */
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #008f4c;
+    border-radius: 5px;
+    font-size: 1rem; /* Usa unidades relativas para flexibilidad */
+    box-sizing: border-box; /* Evita que el padding afecte el tamaño total */
+    height: auto; /* Permite que el tamaño se ajuste dinámicamente */
+    min-height: 40px; /* Garantiza una altura mínima uniforme */
+}
+
+#userType {
+    height: auto;
+    min-height: 40px; /* Coincide con los input */
+    font-size: 1rem; /* Tamaño de fuente relativo */
+}
+
+.remember-me {
+    margin-top: 10px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+.remember-me input {
+    margin-right: 7px;
+}
+
+.register-link {
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 15px;
+}
+.register-link a {
+    font-style: italic;
+    text-decoration: none;
+    color: #008f4c;
+    font-weight: bold;
+}
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+.login-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #008f4c;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.login-button:hover {
+    background-color: #005a24;
+}

@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #008f4c, #006635);
+    font-family: Arial, sans-serif;
+}
+
+.register-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 400px;
+}
+
+.registro-usuario { 
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    font-size: 10px;
+    margin-top: 30px;
+    border: 1px solid #008f4c;
+    border-radius: 5px;
+}
+
+.form-check {
+    display: flex;
+    align-items: center; /* Alinea verticalmente el checkbox con el texto */
+    justify-content: center; /* Centra el contenido */
+    gap: 10px; /* Espacio mínimo entre el checkbox y el texto */
+}
+
+.form-check-input {
+    border: 2px solid #008f4c;
+    margin: 0; /* Elimina márgenes predeterminados */
+    transform: scale(1); /* Ajusta el tamaño si es necesario */
+}
+
+.form-check-label {
+    font-size: 14px; /* Ajusta el tamaño según prefieras */
+    font-style: italic;
+}
+
+.register-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #008f4c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register-button:hover {
+    background-color: #008f4c;
+}
+
+.register-link {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.register-link a {
+    color: #008f4c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}

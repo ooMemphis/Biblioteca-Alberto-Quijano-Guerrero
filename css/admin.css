@@ -1,0 +1,149 @@
+/* Estilos personalizados para el header */
+.custom-header {
+    background-color: #008f4c;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 20px;
+    position: relative;
+}
+
+.icon-house {
+    margin-left: 30px;
+}
+
+/* Centrar el h1 */
+.custom-header h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+    font-weight: 550;
+}
+
+.user-dropdown {
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+/* Estilos del dropdown */
+.dropdown-menu {
+    background-color: #343a40;
+    border: none;
+    width: 200px;
+    padding: 10px;
+}
+
+.dropdown-item {
+    color: white;
+    font-size: 1.1rem;
+    padding: 8px 15px;
+}
+
+.dropdown-item:hover {
+    background-color: #5a6268;
+    color: white;
+}
+
+/* Estilos personalizados para la barra de navegación */
+.navbar {
+    background-color: #343a40;
+    height: 40px;
+    padding: 0;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    margin: 0 20px;
+    font-style: italic;
+}
+
+.navbar-nav .nav-link.active {
+    background-color: #6c757d;
+    border-radius: 5px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ddd;
+}
+
+/* Estilos para el menú */
+.menu-container {
+    margin-right: 155px;
+}
+
+.menu-container .dropdown-toggle span {
+    color: #FFD700;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* Estilos para el logo y el mensaje de bienvenida */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+.welcome-message {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 70px;
+    color: #333;
+}
+
+/* Estilos para la barra de búsqueda */
+.search-bar {
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.search-bar input {
+    padding: 8px;
+    font-size: 1rem;
+    width: 500px;
+    border: 3px solid #343a40;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    padding: 8px 15px;
+    font-size: 1rem;
+    background-color: #343a40;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #5a6268;
+}
+
+/* Estilos para el footer */
+.custom-footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+/* Ocultar el footer en pantallas pequeñas */
+@media (max-width: 768px) {
+    .custom-footer {
+        display: none;
+    }
+}
